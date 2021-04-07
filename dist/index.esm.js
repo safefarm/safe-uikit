@@ -2792,9 +2792,9 @@ var templateObject_1$K;
 var baseColors = {
     failure: "#ED4B9E",
     // primary: "#aa8929",
-    primary: "#e84545",
-    primaryBright: "#fc6060",
-    primaryDark: "#fc6060",
+    primary: "#0d3c61",
+    primaryBright: "#2171b0",
+    primaryDark: "#2171b0",
     // secondary: "#7645D9",
     secondary: "#2b2e4a",
 
@@ -2805,7 +2805,7 @@ var brandColors = {
     binance: "#F0B90B",
 };
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { 
-    background: "#FAF9FA", 
+    background: "#d9e9ff", // #FAF9FA
     backgroundDisabled: "#E9EAEB", 
     contrast: "#191326", 
     invertedContrast: "#FFFFFF", 

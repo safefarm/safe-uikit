@@ -2822,7 +2822,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), {
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { 
     secondary: "#fc6060", 
-    background: "#343135", 
+    background: "#f0f6ff", 
     backgroundDisabled: "#3c3742", 
     contrast: "#FFFFFF", 
     invertedContrast: "#191326", 

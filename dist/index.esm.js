@@ -2833,7 +2833,7 @@ var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), {
     /// text: "#ffd1d1", 
     text: "#c2c2c2",
     textDisabled: "#666171", 
-    textSubtle: "#c2c2c2", 189ad3
+    textSubtle: "#c2c2c2", // #189ad3
     borderColor: "#524B63", 
     card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",

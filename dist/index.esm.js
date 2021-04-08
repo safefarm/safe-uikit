@@ -2813,7 +2813,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), {
     input: "#eeeaf4", 
     tertiary: "#EFF4F5",
     // text: "#452A7A",  
-    text: "#107dac", // #2b2e4a
+    text: "#005073", // #2b2e4a
     textDisabled: "#BDC2C4", 
     /// textSubtle: "#8f80ba",
     textSubtle: "#2171b0", // #903749
@@ -2822,7 +2822,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { 
-    secondary: "#fc6060", 
+    secondary: "#71c7ec", // red
     background: "#343135", 
     backgroundDisabled: "#3c3742", 
     contrast: "#FFFFFF", 

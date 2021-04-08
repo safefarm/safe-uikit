@@ -2813,7 +2813,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), {
     input: "#eeeaf4", 
     tertiary: "#EFF4F5",
     // text: "#452A7A",  
-    text: "#2b2e4a", 
+    text: "#107dac", // #2b2e4a
     textDisabled: "#BDC2C4", 
     /// textSubtle: "#8f80ba",
     textSubtle: "#2171b0", // #903749

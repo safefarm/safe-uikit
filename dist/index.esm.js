@@ -2793,9 +2793,9 @@ var templateObject_1$K;
 var baseColors = {
     failure: "#ED4B9E",
     // primary: "#aa8929",
-    primary: "#cf7500", // #0d3c61
-    primaryBright: "#f0a500", // #2171b0
-    primaryDark: "#f0a500",
+    primary: "#e6af2e", // #0d3c61
+    primaryBright: "#f5d061", // #2171b0
+    primaryDark: "#f5d061",
     // secondary: "#7645D9",
     secondary: "#2b2e4a",
 
@@ -2822,7 +2822,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { 
-    secondary: "f9e090", // red
+    secondary: "#f9e090", // red
     background: "#343135", 
     backgroundDisabled: "#3c3742", 
     contrast: "#FFFFFF", 

@@ -1985,7 +1985,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     InfoIcon: Icon$O,
     LanguageIcon: Icon$P,
     LogoIcon: Logo,
-    MoonIcon: Icon$Q,
+    SunIcon: Icon$Q,
     MoreIcon: Icon$R,
     NftIcon: Icon$S,
     PoolIcon: Icon$T,
@@ -1993,7 +1993,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     WrestlingIcon: Icon$T3,
     LottoIcon: Icon$T4,
     HodlIcon: Icon$T5,
-    SunIcon: Icon$U,
+    MoonIcon: Icon$U,
     TelegramIcon: Icon$V,
     TicketIcon: Icon$W,
     TradeIcon: Icon$X,
@@ -2806,22 +2806,6 @@ var brandColors = {
     binance: "#F0B90B",
 };
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { 
-    background: "#FAF9FA", // #FAF9FA
-    backgroundDisabled: "#E9EAEB", 
-    contrast: "#191326", 
-    invertedContrast: "#FFFFFF", 
-    input: "#eeeaf4", 
-    tertiary: "#EFF4F5",
-    // text: "#452A7A",  
-    text: "#87431d", // #2b2e4a
-    textDisabled: "#BDC2C4", 
-    /// textSubtle: "#8f80ba",
-    textSubtle: "#7d0000", // #903749
-    borderColor: "#E9EAEB", 
-    card: "#FFFFFF", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
-    } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { 
     secondary: "#f9e090", // red
     background: "#343135", 
     backgroundDisabled: "#3c3742", 
@@ -2838,12 +2822,32 @@ var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), {
     card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
+    
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { 
+    background: "#FAF9FA", // #FAF9FA
+    backgroundDisabled: "#E9EAEB", 
+    contrast: "#191326", 
+    invertedContrast: "#FFFFFF", 
+    input: "#eeeaf4", 
+    tertiary: "#EFF4F5",
+    // text: "#452A7A",  
+    text: "#87431d", // #2b2e4a
+    textDisabled: "#BDC2C4", 
+    /// textSubtle: "#8f80ba",
+    textSubtle: "#7d0000", // #903749
+    borderColor: "#E9EAEB", 
+    card: "#FFFFFF", gradients: {
+        bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
+    } });
+    
+    
 
 var light = {
-    background: lightColors.card,
+    background: darkColors.card,
+    
 };
 var dark = {
-    background: darkColors.card,
+    background: lightColors.card,
 };
 
 var _a$2, _b;

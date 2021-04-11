@@ -2157,7 +2157,7 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/musclefinance",
+        href: "https://t.me/ParthenonBsc",
         // items: [
         //    {
         //        label: "English",

@@ -2216,7 +2216,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/ParthenonBsc",
+        href: "https://twitter.com/Parthenon_bsc",
     },
 ];
 var MENU_HEIGHT = 64;

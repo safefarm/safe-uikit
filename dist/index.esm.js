@@ -2216,7 +2216,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/MuscleFinance",
+        href: "https://twitter.com/ParthenonBsc",
     },
 ];
 var MENU_HEIGHT = 64;
